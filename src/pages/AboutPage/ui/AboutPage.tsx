@@ -1,8 +1,12 @@
-import MainPage from "../../MainPage/ui/MainPage";
+import React from 'react';
 
- const AboutPage = () => {
-    return (<>
-        ABOUT
-    </>)
-}
+const AboutPage = () => {
+
+    return (
+        <div>
+            О сайте
+        </div>
+    );
+};
+
 export default AboutPage;

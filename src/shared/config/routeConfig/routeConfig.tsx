@@ -2,6 +2,7 @@ import {RouteProps} from "react-router-dom";
 import {MainPageAsync} from "pages/MainPage";
 import {AboutPageAsync} from "pages/AboutPage";
 
+// нужно закинуть весь файл на уровень app
 export enum AppRoutes {
     MAIN = 'main',
     ABOUT = 'about',
